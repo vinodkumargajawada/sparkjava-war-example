@@ -21,7 +21,9 @@
 			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
-
+	<configuration>
+          <webappDirectory>/var/lib/jenkins/workspace/pipeline_1/deploy</webappDirectory>
+        </configuration>
 	<build>
 		<plugins>
 			<plugin>
